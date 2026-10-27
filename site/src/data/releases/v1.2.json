@@ -308,7 +308,7 @@
           "type": "patch"
         }
       ],
-      "overview": "Agent Router v1.2.1 is a security and stability patch for the v1.2 series. It tightens MCP session handling and makes the external processor tolerate malformed upstream responses. It also keeps MCP session encryption seeds out of Pod specs and logs, and moves to Go 1.27.3 for standard library CVE fixes. Upgrading rolls Gateway pods that serve MCPRoutes once. An MCP session ID now works only on the MCPRoute that created it. Envoy Gateway stays at v1.9.2, with Envoy Proxy v1.39.5 and Gateway API v1.6.1.",
+      "overview": "Agent Router v1.2.1 is a security and stability patch for the v1.2 series. It tightens MCP session handling and makes the external processor tolerate malformed upstream responses. It also keeps MCP session encryption seeds out of Pod specs and logs, and moves to Go 1.27.3 for standard library CVE fixes. Upgrading rolls Gateway pods that serve MCPRoutes once. An MCP session ID now works only on the MCPRoute that created it. Envoy Gateway stays at v1.9.2, with Envoy Proxy v1.39.6 and Gateway API v1.6.1.",
       "features": [],
       "apiChanges": [],
       "deprecations": [],
